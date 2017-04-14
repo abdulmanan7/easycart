@@ -1,0 +1,117 @@
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+.sidebar
+{
+  height: 37em;
+  border-top: 7px solid #f43438;
+  border-left: solid 1px #efefef;
+  border-right: solid 1px #efefef;
+  border-bottom: solid 1px #efefef;
+  float:right;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+.search-bg
+{
+  padding: 10px 0px 0px 0px;
+  height: 3em;
+}
+li
+{
+  list-style: none;
+}
+.atta{
+  width:850px;
+}
+.no-radius
+{
+  border-radius: 0px;
+  padding: 2px 12px;
+  background-color: #f43438;
+}
+.img-holder
+{
+  position: relative;
+}
+.img-holder span {
+    position: absolute;
+    top: 5px;
+    background-color: #f43438;
+    padding: 2px 12px;
+    color: white;
+    border-radius: 0px 0px 100px 0px;
+}
+.btn-bg
+{
+  border-radius: 0px;
+  padding: 2px 12px;
+  background-color: #d3d3d3;
+}
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+.modal-title
+{
+  font-family: 'Sofia';
+  font-size: 22px;
+}
+.home-bg
+{
+  background-color: #a6c;
+  color: #ffffff !important;
+}
+.input-sm
+{
+  height: 28px;
+}
+
