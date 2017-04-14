@@ -8,7 +8,7 @@
     <title>E-commerece</title>
 
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,11 +20,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/bootsnav.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/my_style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/magnifier.css">
+    <link href="{{asset('css/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootsnav.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/my_style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/magnifier.css')}}">
 
 
     <style>
